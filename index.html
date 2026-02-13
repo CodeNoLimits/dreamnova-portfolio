@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DreamNova - AI-Powered Digital Agency | Portfolio</title>
+  <meta name="description" content="DreamNova builds world-class websites, AI products, and digital solutions. 30+ projects delivered across 15+ countries. Founded by David Amor in Jerusalem.">
+  <meta property="og:title" content="DreamNova - AI-Powered Digital Agency">
+  <meta property="og:description" content="30+ live projects. AI consulting, e-commerce, SaaS, and investor-grade pitch decks.">
+  <meta property="og:type" content="website">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Animated Background Orbs -->
+  <div class="bg-orbs" aria-hidden="true">
+    <div class="orb orb-1"></div>
+    <div class="orb orb-2"></div>
+    <div class="orb orb-3"></div>
+    <div class="orb orb-4"></div>
+  </div>
+  <div class="noise-overlay" aria-hidden="true"></div>
+
+  <!-- Navigation -->
+  <nav class="nav glass-nav" id="nav">
+    <div class="nav-inner">
+      <a href="#hero" class="nav-logo">
+        <span class="logo-icon">&#9670;</span>
+        <span class="logo-text">DREAMNOVA</span>
+      </a>
+      <div class="nav-links" id="navLinks">
+        <a href="#about">About</a>
+        <a href="#featured">Featured</a>
+        <a href="#projects">All Projects</a>
+        <a href="#saas">AI SaaS</a>
+        <a href="#contact">Contact</a>
+      </div>
+      <button class="nav-toggle" id="navToggle" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero" id="hero">
+    <div class="hero-content">
+      <div class="hero-badge glass-pill">AI-Powered Digital Agency</div>
+      <h1 class="hero-title">
+        We Build <span class="gradient-text">Extraordinary</span><br>Digital Experiences
+      </h1>
+      <p class="hero-subtitle">
+        30+ live projects across e-commerce, AI products, investor decks, and full-stack platforms.
+        Based in Jerusalem. Serving clients worldwide.
+      </p>
+      <div class="hero-stats">
+        <div class="stat-item">
+          <span class="stat-number" data-count="30">0</span>
+          <span class="stat-label">Live Projects</span>
+        </div>
+        <div class="stat-item">
+          <span class="stat-number" data-count="8">0</span>
+          <span class="stat-label">Active Clients</span>
+        </div>
+        <div class="stat-item">
+          <span class="stat-number" data-count="10">0</span>
+          <span class="stat-label">AI SaaS Apps</span>
+        </div>
+        <div class="stat-item">
+          <span class="stat-number" data-count="85">0</span>
+          <span class="stat-label">GitHub Repos</span>
+        </div>
+      </div>
+      <div class="hero-actions">
+        <a href="#featured" class="btn btn-primary">View Portfolio</a>
+        <a href="#contact" class="btn btn-glass">Get In Touch</a>
+      </div>
+    </div>
+    <div class="scroll-indicator">
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="section" id="about">
+    <div class="container">
+      <div class="section-label">WHO WE ARE</div>
+      <div class="about-grid">
+        <div class="about-text">
+          <h2 class="section-title">David <span class="gradient-text">DreamNova</span></h2>
+          <p class="about-desc">
+            Full-stack developer, AI architect, and serial entrepreneur based in Jerusalem, Israel.
+            Founder of DreamNova, an AI-powered digital agency serving clients across France, Israel,
+            the US, and 15+ countries.
+          </p>
+          <p class="about-desc">
+            We specialize in building stunning e-commerce platforms, AI-powered SaaS products,
+            investor-grade pitch decks, and automation systems. Our tech stack spans React, Next.js,
+            TypeScript, Python, Shopify, Supabase, and cutting-edge AI models (Gemini, Claude, GPT).
+          </p>
+          <p class="about-desc about-mission">
+            Our mission goes beyond business. Through the <strong>Hafatsa Project</strong>, we dedicate
+            a significant portion of our revenue to distributing the teachings of Rabbi Nachman of Breslov
+            worldwide &mdash; translating sacred texts, building educational platforms, and creating
+            content that reaches millions.
+          </p>
+        </div>
+        <div class="about-cards">
+          <div class="glass-card about-card">
+            <div class="about-card-icon">&#128640;</div>
+            <h3>DreamNova Consult</h3>
+            <p>Premium AI consulting for entrepreneurs. Web design, automation, marketing, and training.</p>
+          </div>
+          <div class="glass-card about-card">
+            <div class="about-card-icon">&#127891;</div>
+            <h3>Formation IA</h3>
+            <p>Comprehensive AI training platform. 8 modules, 45+ practical lessons. 2,500+ students trained.</p>
+          </div>
+          <div class="glass-card about-card">
+            <div class="about-card-icon">&#127807;</div>
+            <h3>Ha-Mazon</h3>
+            <p>AI-native electric food delivery logistics for B2B restaurant supply. Seed-stage venture.</p>
+          </div>
+          <div class="glass-card about-card">
+            <div class="about-card-icon">&#129504;</div>
+            <h3>TerraMind</h3>
+            <p>AI-powered mental health platform. AI+human hybrid therapy at accessible pricing.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FEATURED PROJECTS -->
+  <section class="section" id="featured">
+    <div class="container">
+      <div class="section-label">FEATURED WORK</div>
+      <h2 class="section-title">Our <span class="gradient-text">Best</span> Projects</h2>
+      <div class="featured-grid" id="featuredGrid">
+        <!-- Populated by JS -->
+      </div>
+    </div>
+  </section>
+
+  <!-- ALL PROJECTS -->
+  <section class="section" id="projects">
+    <div class="container">
+      <div class="section-label">COMPLETE PORTFOLIO</div>
+      <h2 class="section-title">All <span class="gradient-text">Projects</span></h2>
+      <div class="filter-bar" id="filterBar">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="client">Client Work</button>
+        <button class="filter-btn" data-filter="product">Products</button>
+        <button class="filter-btn" data-filter="investor">Investor</button>
+        <button class="filter-btn" data-filter="saas">AI SaaS</button>
+        <button class="filter-btn" data-filter="internal">Internal</button>
+      </div>
+      <div class="projects-grid" id="projectsGrid">
+        <!-- Populated by JS -->
+      </div>
+    </div>
+  </section>
+
+  <!-- AI SAAS SHOWCASE -->
+  <section class="section" id="saas">
+    <div class="container">
+      <div class="section-label">AI PRODUCT SUITE</div>
+      <h2 class="section-title">10 <span class="gradient-text">AI Micro-SaaS</span> Apps</h2>
+      <p class="section-subtitle">Production-ready AI tools, each solving a specific business problem.</p>
+      <div class="saas-grid" id="saasGrid">
+        <!-- Populated by JS -->
+      </div>
+    </div>
+  </section>
+
+  <!-- TECH STACK -->
+  <section class="section section-compact" id="tech">
+    <div class="container">
+      <div class="section-label">TECHNOLOGY</div>
+      <h2 class="section-title">Our <span class="gradient-text">Stack</span></h2>
+      <div class="tech-marquee">
+        <div class="tech-track">
+          <span class="tech-chip">React</span>
+          <span class="tech-chip">Next.js</span>
+          <span class="tech-chip">TypeScript</span>
+          <span class="tech-chip">Node.js</span>
+          <span class="tech-chip">Python</span>
+          <span class="tech-chip">Tailwind CSS</span>
+          <span class="tech-chip">Supabase</span>
+          <span class="tech-chip">Vercel</span>
+          <span class="tech-chip">Shopify</span>
+          <span class="tech-chip">Stripe</span>
+          <span class="tech-chip">Gemini AI</span>
+          <span class="tech-chip">Claude AI</span>
+          <span class="tech-chip">tRPC</span>
+          <span class="tech-chip">Express</span>
+          <span class="tech-chip">SQLite</span>
+          <span class="tech-chip">PostgreSQL</span>
+          <span class="tech-chip">React</span>
+          <span class="tech-chip">Next.js</span>
+          <span class="tech-chip">TypeScript</span>
+          <span class="tech-chip">Node.js</span>
+          <span class="tech-chip">Python</span>
+          <span class="tech-chip">Tailwind CSS</span>
+          <span class="tech-chip">Supabase</span>
+          <span class="tech-chip">Vercel</span>
+          <span class="tech-chip">Shopify</span>
+          <span class="tech-chip">Stripe</span>
+          <span class="tech-chip">Gemini AI</span>
+          <span class="tech-chip">Claude AI</span>
+          <span class="tech-chip">tRPC</span>
+          <span class="tech-chip">Express</span>
+          <span class="tech-chip">SQLite</span>
+          <span class="tech-chip">PostgreSQL</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="section" id="contact">
+    <div class="container">
+      <div class="contact-block glass-card">
+        <div class="section-label">LET'S CONNECT</div>
+        <h2 class="section-title">Ready to Build<br><span class="gradient-text">Something Amazing?</span></h2>
+        <p class="contact-desc">
+          Whether you need a stunning website, an AI-powered product, or a compelling investor pitch deck
+          &mdash; we deliver results that exceed expectations.
+        </p>
+        <div class="contact-links">
+          <a href="mailto:admin@holyrentals.com" class="btn btn-primary">admin@holyrentals.com</a>
+          <a href="https://github.com/CodeNoLimits" target="_blank" rel="noopener" class="btn btn-glass">GitHub (85 repos)</a>
+          <a href="https://dreamnova-consult.vercel.app" target="_blank" rel="noopener" class="btn btn-glass">DreamNova Agency</a>
+        </div>
+        <div class="contact-locations">
+          <span>&#127470;&#127473; Jerusalem, Israel</span>
+          <span>&#127467;&#127479; Paris, France</span>
+          <span>&#127758; Serving 15+ Countries</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <span class="logo-icon">&#9670;</span> DREAMNOVA
+      </div>
+      <div class="footer-copy">&copy; 2026 DreamNova. All rights reserved.</div>
+      <div class="footer-links">
+        <a href="https://github.com/CodeNoLimits" target="_blank" rel="noopener">GitHub</a>
+        <a href="https://dreamnova-consult.vercel.app" target="_blank" rel="noopener">Agency</a>
+        <a href="https://dreamnova-formation-ia.vercel.app" target="_blank" rel="noopener">Training</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
