@@ -54,13 +54,15 @@ const FEATURED = [
 
 // ── All Projects ─────────────────────────────────────────────
 const PROJECTS = [
-  { name: "Barukh Sagit Jewelry", url: "https://barukh-sagit-jewelry.vercel.app", category: "client", desc: "Luxury jewelry e-commerce. Multilingual (FR/EN/HE) with elegant product showcase.", status: "live" },
+  { name: "Maison Sagit", url: "https://maisonsagit.com", category: "client", desc: "Luxury jewelry e-commerce with custom domain. Multilingual (FR/EN/HE) with elegant product showcase.", status: "live" },
+  { name: "Barukh Sagit Jewelry", url: "https://barukh-sagit-jewelry.vercel.app", category: "client", desc: "Luxury jewelry brand site. Next.js with Supabase backend and multi-currency support.", status: "live" },
   { name: "Esther Ifra Breslev", url: "https://ultime-esther-ifra-breslev.vercel.app", category: "client", desc: "Breslov books e-commerce with subscriptions, digital reader, and DRM protection.", status: "live" },
   { name: "Ariel Kavkom Solar", url: "https://ariel-solar-panels-kavkom.vercel.app", category: "client", desc: "Solar panel company website with lead generation and service showcase.", status: "live" },
   { name: "Noam Design", url: "https://noam-design.vercel.app", category: "client", desc: "Luxury architectural planters and premium artificial plants showcase.", status: "live" },
   { name: "Ran Entertainer", url: "https://ran-entertainer.vercel.app", category: "client", desc: "Entertainment services portfolio with booking and event showcase.", status: "live" },
   { name: "Breslev Books Preview", url: "https://breslev-books-preview.vercel.app", category: "client", desc: "Shopify-integrated Breslev books preview with product browsing.", status: "live" },
   { name: "Sagit Video Portfolio", url: "https://sagit-video-portfolio.vercel.app", category: "client", desc: "Video portfolio showcasing jewelry craftsmanship and brand stories.", status: "live" },
+  { name: "Tikoun Aolam", url: "https://tikoun-aolam.com", category: "client", desc: "French Breslov bookshop. Rabbi Nahman literature, prayer books, and community engagement.", status: "live" },
   { name: "LMC Consulting", url: "https://lmc-consulting-proposition.vercel.app", category: "client", desc: "Professional consulting proposition and services presentation.", status: "live" },
   { name: "DreamNova Global Pitch", url: "https://dreamnova-global-pitch.vercel.app", category: "investor", desc: "Master investor pitch: 24 active projects, 3-tier portfolio, Impact+Profit mission.", status: "live" },
   { name: "TerraMind Vitrine", url: "https://terramind-vitrine.vercel.app", category: "investor", desc: "TerraMind product showcase and market positioning for investors.", status: "live" },
