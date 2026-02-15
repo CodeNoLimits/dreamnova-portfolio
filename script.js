@@ -84,6 +84,14 @@ const PROJECTS = [
   { name: "Bookmarklets v5", url: "https://bookmarklets-v5.vercel.app", category: "internal", desc: "Collection of productivity bookmarklets for web development.", status: "live" },
   { name: "DreamNova Nexus", url: "https://dreamnova-nexus-ultimate.vercel.app", category: "internal", desc: "Ultimate project nexus connecting all DreamNova systems.", status: "live" },
   { name: "God Mode", url: "https://dreamnova-god-mode.vercel.app", category: "internal", desc: "Advanced admin panel with full system control capabilities.", status: "live" },
+  { name: "DreamNova Portfolio", url: "https://dreamnova-portfolio.vercel.app", category: "internal", desc: "This site! Mega portfolio showcasing all 63+ DreamNova projects.", status: "live" },
+  { name: "Breslev Reports", url: "https://breslev-reports-site.vercel.app", category: "product", desc: "Automated Breslov education reports and content generation platform.", status: "live" },
+  { name: "Rabbi Nachman RAG", url: "https://rabbi-nachman-rag-heygen.vercel.app", category: "product", desc: "RAG-powered Rabbi Nachman knowledge base with AI-generated video responses.", status: "live" },
+  { name: "Rabbi Nachman Epic", url: "https://rabbi-nahman-epic.vercel.app", category: "product", desc: "Immersive storytelling platform for the tales of Rabbi Nachman.", status: "live" },
+  { name: "DreamNova Tiktok", url: "https://dreamnova-tiktok-videos.vercel.app", category: "product", desc: "AI-powered short-form video generation for TikTok marketing.", status: "live" },
+  { name: "DreamNova Videos", url: "https://dreamnova-videos.vercel.app", category: "product", desc: "Video content library and AI-assisted video production pipeline.", status: "live" },
+  { name: "Guezi RAG Chatbot", url: "https://guezi-rag-chatbot.vercel.app", category: "client", desc: "AI chatbot for Avraham Guezi's Breslov Torah content with RAG retrieval.", status: "live" },
+  { name: "DreamNova Sync", url: "https://dreamnova-sync-server.vercel.app", category: "internal", desc: "Real-time synchronization server for Mac-Dell cluster coordination.", status: "live" },
 ];
 
 // ── SaaS Apps ────────────────────────────────────────────────
